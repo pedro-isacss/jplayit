@@ -1,0 +1,21 @@
+.jplayit-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.jplayit-wrapper--controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.7s ease;
+}
+
+.jplayit-wrapper:hover .jplayit-wrapper--controls {
+  opacity: 1;
+}

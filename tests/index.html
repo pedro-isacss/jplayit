@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../lib/index.css" />
+  </head>
+
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+
+  <body>
+    <div class="jplayit-wrapper">
+      <video height="400px" id="jplayit-video">
+        <source type="video/mp4" src="./video.mp4" />
+      </video>
+      <div class="jplayit-wrapper--controls">
+        <button id="jplayit-play">play</button>
+        <input type="range" max="100" min="0" />
+        <button id="jplayit-full-screen">FullScreen</button>
+      </div>
+    </div>
+
+    <script src="../lib/index.js"></script>
+  </body>
+</html>

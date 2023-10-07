@@ -1,0 +1,19 @@
+{
+  "name": "jplayit",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedro-isacss/jplayit.git"
+  },
+  "author": "Pedro Isac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedro-isacss/jplayit/issues"
+  },
+  "homepage": "https://github.com/pedro-isacss/jplayit#readme"
+}
